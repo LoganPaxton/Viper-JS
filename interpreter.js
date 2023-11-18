@@ -35,10 +35,4 @@ class ViperInterp {
   }
 }
 
-const ViperProg = ` // Little test code here.
-  let name = Logan
-  print name
-`
-
-const interpreter = new ViperInterp();
-interpreter.interpret(ViperProg);
+module.exports = ViperInterp;
